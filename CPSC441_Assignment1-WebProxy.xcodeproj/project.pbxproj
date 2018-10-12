@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84472549216446B5008C5D55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84472548216446B5008C5D55 /* main.cpp */; };
+		84472558216446E5008C5D55 /* Parse_browser_side.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8447254F216446E4008C5D55 /* Parse_browser_side.cpp */; };
+		84472559216446E5008C5D55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84472550216446E4008C5D55 /* main.cpp */; };
+		8447255A216446E5008C5D55 /* Internet_side.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84472553216446E4008C5D55 /* Internet_side.cpp */; };
+		8447255B216446E5008C5D55 /* Parse_internet_side.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84472555216446E4008C5D55 /* Parse_internet_side.cpp */; };
+		8447255C216446E5008C5D55 /* Browser_side.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84472556216446E4008C5D55 /* Browser_side.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,15 @@
 
 /* Begin PBXFileReference section */
 		84472545216446B5008C5D55 /* CPSC441_Assignment1-WebProxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPSC441_Assignment1-WebProxy"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84472548216446B5008C5D55 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8447254F216446E4008C5D55 /* Parse_browser_side.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parse_browser_side.cpp; sourceTree = "<group>"; };
+		84472550216446E4008C5D55 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84472551216446E4008C5D55 /* Parse_browser_side.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Parse_browser_side.hpp; sourceTree = "<group>"; };
+		84472552216446E4008C5D55 /* Parse_internet_side.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Parse_internet_side.hpp; sourceTree = "<group>"; };
+		84472553216446E4008C5D55 /* Internet_side.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Internet_side.cpp; sourceTree = "<group>"; };
+		84472554216446E4008C5D55 /* Internet_side.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Internet_side.hpp; sourceTree = "<group>"; };
+		84472555216446E4008C5D55 /* Parse_internet_side.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parse_internet_side.cpp; sourceTree = "<group>"; };
+		84472556216446E4008C5D55 /* Browser_side.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Browser_side.cpp; sourceTree = "<group>"; };
+		84472557216446E5008C5D55 /* Browser_side.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Browser_side.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		84472547216446B5008C5D55 /* CPSC441_Assignment1-WebProxy */ = {
 			isa = PBXGroup;
 			children = (
-				84472548216446B5008C5D55 /* main.cpp */,
+				84472556216446E4008C5D55 /* Browser_side.cpp */,
+				84472557216446E5008C5D55 /* Browser_side.hpp */,
+				84472553216446E4008C5D55 /* Internet_side.cpp */,
+				84472554216446E4008C5D55 /* Internet_side.hpp */,
+				84472550216446E4008C5D55 /* main.cpp */,
+				8447254F216446E4008C5D55 /* Parse_browser_side.cpp */,
+				84472551216446E4008C5D55 /* Parse_browser_side.hpp */,
+				84472555216446E4008C5D55 /* Parse_internet_side.cpp */,
+				84472552216446E4008C5D55 /* Parse_internet_side.hpp */,
 			);
 			path = "CPSC441_Assignment1-WebProxy";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84472549216446B5008C5D55 /* main.cpp in Sources */,
+				84472559216446E5008C5D55 /* main.cpp in Sources */,
+				84472558216446E5008C5D55 /* Parse_browser_side.cpp in Sources */,
+				8447255A216446E5008C5D55 /* Internet_side.cpp in Sources */,
+				8447255C216446E5008C5D55 /* Browser_side.cpp in Sources */,
+				8447255B216446E5008C5D55 /* Parse_internet_side.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
